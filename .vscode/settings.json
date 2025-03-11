@@ -1,0 +1,21 @@
+{
+  "github.copilot.chat.edits.codesearch.enabled": false,
+  "github.copilot.chat.completionContext.typescript.mode": "off",
+  "github.copilot.chat.editor.temporalContext.enabled": false,
+  "github.copilot.chat.commitMessageGeneration.instructions": [],
+  "github.copilot.advanced": {
+      
+  },
+  "github.copilot.enable": {
+      "markdown": false,
+      "html": false,
+      "css": false,
+      "javascript": false
+  },
+  "github.copilot.chat.followUps": "never",
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "github.copilot.chat.languageContext.typescript.enabled": false,
+  "github.copilot.chat.generateTests.codeLens": false,
+  "github.copilot.suggestions.enabled": false,
+  "github.copilot.chat.enabled": false
+}
