@@ -1,0 +1,32 @@
+/* Write your code here: */
+h1, h2 {
+    color: blueviolet;
+}
+
+/* Select direct childs of a element*/
+/* div > p { */
+.box > p {
+    color: firebrick;
+}
+
+
+/*Decendent selector - match all elements inside paraent*/
+/* .box li {*/
+.box li {
+    color: rebeccapurple;
+}
+
+/*Chainning selectors: Applies where all selectors mathes.
+e.g. - h1#id.classA.classB
+syntx: 
+    <element><#id><.class><.class>
+    <element><.class><.class>
+    <element><.class><.class><#id>
+ */
+li.done {
+    color: seagreen
+}
+
+ul p.done{
+    font-size: 0.5rem;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Positioning Exercise</title>
+  <style>
+    /* Write your code here */
+    .blue-box {
+      background-color: blue;
+      height: 300px;
+      width: 500px;
+      border-radius: 5%;
+      top: 200px;
+      left: 200px;
+      position: relative;
+    }
+
+    .circle {
+      height: 90px;
+      width: 100px;
+      border-radius: 50%;
+      position: absolute;
+      bottom: 5%
+    }
+
+    .red-circle {
+      background-color: red;
+      right: 10%;
+    }
+
+    .golden-circle {
+      background-color: gold;
+      right: 17%;
+    }
+
+    p {
+      margin: 0px;
+    }
+    .brand-label {
+      font-size: 3rem;
+      font-weight: 900;
+      text-align: center;
+      text-decoration: underline;
+      color: white;
+    }
+
+    .user-details {
+      position: absolute;
+      bottom: 5%;
+      left: 5%;
+    }
+
+    .username {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 2rem;
+      color: red;
+    }
+
+    .tag-line {
+      font-family: serif;
+      font-size: 1rem;
+      color: whitesmoke;
+      font-style: italic;
+      position: relative;
+      left: 20%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="blue-box" draggable="false">
+    <p class="brand-label">Master Card</p>
+    <div class="user-details">
+      <p class="username">Ravi Raj</p>
+      <p class="tag-line">Learning CSS credit card design</p>
+    </div>
+    <div class="circle red-circle" draggable="true">
+    </div>
+    <div class="circle golden-circle"></div>
+  </div>
+
+</body>
+
+</html>
