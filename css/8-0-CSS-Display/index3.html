@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page template using HTML CSS</title>
+    <style>
+        .wrapper {
+            position: relative;
+            height: 100%;
+            width: 100%;
+        }
+
+        #banner-container {
+            position: relative;
+            min-height: 350px;
+            width: 100%;
+        }
+
+        #banner {
+            background-color: blue;
+            height: 300px;
+            width: 100%;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .wrapper div p {
+            color: red;
+            margin: 0px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 5rem;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        #profile-pic {
+            height: 200px;
+            width: 200px;
+            border-radius: 500%;
+            background-color: aqua;
+            position: absolute;
+            top: 150px;
+            left: 50px;
+        }
+
+        #nav-links {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            margin-top: 20px;
+        }
+
+        #links {
+            background-color: blueviolet;
+            height: 500px;
+            width: 300px;
+            position: absolute;
+        }
+
+        #vnav-links {
+            background-color: darkgoldenrod;
+            border-radius: 10px;;
+        }
+        #vnav-links ul{
+            text-align: center;
+        }
+        #vnav-links ul li {
+            display: inline;
+            padding: 0px 10px;
+        }
+        #vnav-links ul li a {
+            text-decoration: none;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.5rem;
+        }
+        #vnav-links ul li a:hover {
+            background-color: darkorange;
+            border-radius: 5px;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="banner-container">
+            <div id="banner"></div>
+            <p>Banner of the page.</p>
+            <div id="profile-pic"></div>
+        </div>
+        <div id="vnav-links">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Photos</a></li>
+                <li><a href="">Videos</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </div>
+        <div id="nav-links">
+            <div id="links"></div>
+        </div>
+    </div>
+</body>
+
+</html>
